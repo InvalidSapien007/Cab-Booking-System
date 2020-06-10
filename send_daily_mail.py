@@ -9,9 +9,9 @@ from data_visualization import DataVisualization
 dv = DataVisualization()
 dv.get_record()
 
-email_user = 'chandan.singh@nineleaps.com' #Enter your email
+email_user = '#sample_email' #Enter your email
 email_password = '#sample_password'           #Enter your password
-email_send = 'chandan.singh@nineleaps.com' #Enter receiver email
+email_send = '#sample_receiver_email' #Enter receiver email
 today = date.today().strftime("%d-%m-%Y")
 
 subject = 'Booking Status for {}'.format(today)
